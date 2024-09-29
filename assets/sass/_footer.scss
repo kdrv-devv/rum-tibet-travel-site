@@ -1,0 +1,180 @@
+.footer {
+  background: #1a3e3e;
+  margin-top: 100px;
+}
+
+.footer > div {
+  padding-top: 178px;
+  padding-bottom: 40px;
+}
+
+.footer_top {
+  display: flex;
+
+  justify-content: space-between;
+}
+.footer_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #f3f5f4;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+  }
+
+  .musr {
+    a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 129%;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: #fff;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer_icn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    a {
+      font-size: 20px;
+      color: #fff;
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.nash_uslugi {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #f3f5f4;
+  }
+  a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fdfdfd;
+  }
+}
+
+.vajno {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #f3f5f4;
+  }
+  a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fdfdfd;
+  }
+}
+
+.footer_bottom {
+  padding: 20px;
+  background: #18121e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fff;
+  }
+}
+
+
+@media(max-width:1171px){
+    .footer > div {
+        padding-top: 108px;
+        padding-bottom: 40px;
+      }
+      
+    .footer_top{
+        flex-wrap: wrap;
+        
+    }
+    .nash_uslugi{
+        margin-top: 50px;
+    }
+    .vajno{
+        margin-top: 50px;
+    }
+    .footer_icons {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+        h4 {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 120%;
+          color: #f3f5f4;
+        }
+      
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 143%;
+          color: #fff;
+        }
+      
+        .musr {
+          a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 129%;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #fff;
+          }
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      
+        .footer_icn {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+      
+          a {
+            font-size: 20px;
+            color: #fff;
+            opacity: 0.6;
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+}

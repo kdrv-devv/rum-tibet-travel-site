@@ -1,0 +1,141 @@
+.program {
+    margin-top: 60px;
+    background-color: #f3f5f4;
+    padding: 60px 0;
+  }
+  
+  .program > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .program__left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+    .top__text {
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 83%;
+        color: #f2be22;
+        padding-bottom: 20px;
+      }
+      h2 {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 120%;
+        color: #18121e;
+      }
+    }
+  
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      color: #18121e;
+    }
+  }
+  
+  .program__card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 111%;
+      letter-spacing: 0.01em;
+      color: #18121e;
+      padding-bottom: 15px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px !important;
+      line-height: 143% !important;
+      color: #000;
+    }
+  }
+  
+  .btnn2 {
+    button {
+      border-radius: 4px;
+      width: 236px;
+      height: 52px;
+      background: #1a3e3e;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 125%;
+      letter-spacing: 0.01em;
+      color: #fdfdfd;
+      transition: 0.4s;
+      &:hover {
+        background-color: transparent;
+        color: #1a3e3e;
+        box-shadow: 0 0 5px #1a3e3e;
+      }
+    }
+  }
+  
+  .program__right {
+    display: flex;
+    gap: 30px;
+  }
+  
+  @media (max-width: 1128px) {
+    .program__left {
+      .top__text {
+        p {
+          font-size: 16px;
+          line-height: 83%;
+          padding-bottom: 15px;
+        }
+        h2 {
+          font-size: 22px;
+        }
+      }
+  
+      p {
+        font-size: 15px;
+      }
+    }
+    .program__card {
+      gap: 15px;
+      h3 {
+        font-size: 15px;
+        padding-bottom: 5px;
+      }
+      p {
+        font-size: 10px !important;
+      }
+    }
+    .btnn2 {
+      button {
+        width: 180px;
+        height: 42px;
+        font-size: 12px;
+      }
+    }
+  }   
+  @media (max-width: 975px) {
+    .program > div {
+      display: grid;
+      grid-template-columns: repeat(100%);
+    }
+  
+    .program__right {
+      display: none;
+    }
+    .program__card {
+      img {
+        width: 100px;
+      }
+    }
+    .btnn2{
+      text-align: center;
+    }
+  }
+  

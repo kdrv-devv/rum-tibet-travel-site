@@ -1,0 +1,261 @@
+.travel {
+  background: #f3f5f4;
+  margin-top: 100px;
+}
+.travel > div {
+  gap: 40px;
+  padding-bottom: 50px;
+
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+}
+
+.travel_top {
+  gap: 8px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 83%;
+    color: #f2be22;
+  }
+  h4 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #18121e;
+  }
+}
+
+.travel_center {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  .travel_center_top,
+  .travel_center_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.travel_card {
+    gap: 20px;
+  padding: 16px;
+  display: flex;
+  width: 46%;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+  justify-content: space-between;
+  .travel_card_left {
+    width: 35%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .travel_card_right {
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    h5 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 133%;
+      color: #18121e;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      color: #18121e;
+    }
+    .right_bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h5 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 143%;
+        color: #f2be22;
+      }
+      h6 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 143%;
+        color: #1a3e3e;
+      }
+    }
+  }
+}
+
+.travel_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    border-radius: 4px;
+    padding: 16px 36px;
+    width: 220px;
+    height: 52px;
+    background: #1a3e3e;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: #fdfdfd;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: 0.01em;
+color: #fdfdfd;
+&:hover{
+    background-color: #295d5d;
+}
+
+  }
+}
+
+
+@media(max-width:1074px){
+    
+.travel_card {
+    gap: 20px;
+  padding: 16px;
+  display: flex;
+  width: 46%;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+  justify-content: space-between;
+  .travel_card_left {
+    width: 35%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .travel_card_right {
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    h5 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 103%;
+      color: #18121e;
+    }
+    p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 103%;
+        color: #18121e;
+      }
+  }
+}
+
+
+}
+
+@media(max-width:884px){
+    .travel_center_top,.travel_center_bottom{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .travel_card {
+        gap: 20px;
+      padding: 16px;
+      display: flex;
+      width: 90%;
+      align-items: center;
+      border-radius: 10px;
+      background-color: #fff;
+      justify-content: space-between;
+      .travel_card_left {
+        width: 35%;
+        height: auto;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .travel_card_right {
+        gap: 44px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        h5 {
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 103%;
+          color: #18121e;
+        }
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 103%;
+            color: #18121e;
+          }
+      }
+    }
+    
+
+
+}
+
+@media(max-width:622px){
+
+    .travel_card {
+        gap: 20px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      align-items: center;
+      border-radius: 10px;
+      background-color: #fff;
+      justify-content: center;
+      .travel_card_left {
+        width: 60%;
+        height: auto;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .travel_card_right {
+        gap: 34px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: column;
+        h5 {
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 103%;
+          color: #18121e;
+        }
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 103%;
+            color: #18121e;
+          }
+      }
+    }
+
+
+}
